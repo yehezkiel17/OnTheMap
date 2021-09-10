@@ -24,6 +24,7 @@
 		12C459AC26EB7CB8000D5D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12C459AF26EB7CB8000D5D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12C459B126EB7CB8000D5D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C459BA26EB7DDD000D5D82 /* MakingNetworkRequest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MakingNetworkRequest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		12C459A226EB7CB6000D5D82 /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
+				12C459B926EB7D9D000D5D82 /* Playgrounds */,
 				12C459A326EB7CB6000D5D82 /* AppDelegate.swift */,
 				12C459A526EB7CB6000D5D82 /* SceneDelegate.swift */,
 				12C459A726EB7CB6000D5D82 /* ViewController.swift */,
@@ -65,6 +67,14 @@
 				12C459B126EB7CB8000D5D82 /* Info.plist */,
 			);
 			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		12C459B926EB7D9D000D5D82 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				12C459BA26EB7DDD000D5D82 /* MakingNetworkRequest.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
